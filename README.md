@@ -27,7 +27,7 @@ To set up the project locally, follow these steps:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your_username/yt-transcriber.git
+   git clone https://github.com/your_username/calorie-advisor.git
 
 2. Install the required dependencies:
    ```bash
@@ -39,5 +39,5 @@ To set up the project locally, follow these steps:
    
 4. Run the application:
    ```bash
-   streamlit run yt_transcriber.py
+   streamlit run health.py
 
