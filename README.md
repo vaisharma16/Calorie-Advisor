@@ -12,18 +12,32 @@ Calorie Advisor is a Python app that analyzes food images to provide nutritional
 - **Healthiness Assessment**: The app determines whether the meal is healthy based on nutrient balance.
 - **Percentage Split of Ratio**: It displays the percentage distribution of macronutrients (carbohydrates, fats, fiber, sugar).
 
-## Instructions for Implementation
-
-1. Create a Python virtual environment and install required libraries (streamlit, google.generative_ai).
-2. Configure the API key for Gemini Pro.
-3. Define functions to prepare image data and interact with the Gemini Pro API.
-4. Create a streamlit app with an upload button and a submit button.
-5. Use the defined functions to process uploaded images and display the nutritional information and healthiness assessment.
-6. Run the command "Streamlit run health.py".
 
 ## Benefits of Using the App
 
 - **Improved Calorie Tracking**: Users can accurately monitor their calorie intake.
 - **Informed Food Choices**: The app provides insights into the nutritional value of various foods.
 - **Health Monitoring**: It allows users to make healthier food choices based on their health goals.
+
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/your_username/yt-transcriber.git
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Set up your environment variables by creating a .env file and adding your Google API key:
+   ```bash
+   GOOGLE_API_KEY=your_api_key_here
+   
+4. Run the application:
+   ```bash
+   streamlit run yt_transcriber.py
 
